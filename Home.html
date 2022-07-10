@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en-AU" xml:lang="en-AU">
+
+<head id="head">
+  <title>PracSuite | Professional Cloud Practice Management Software</title>
+
+  <meta charset="utf-8" />
+  <meta name="description"
+    content="PracSuite - Professional cloud practice management software for allied health practitioners that does more.">
+  <meta property="og:title" content=" PracSuite | Professional Cloud Practice Management Software" />
+  <meta property="og:description"
+    content="PracSuite - Professional cloud practice management software for allied health practitioners that does more.">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.pracsuite.com" />
+  <meta property="og:image" content="images/pracsuite-mobilepreview.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#323232" />
+  <meta name="keywords"
+    content="Practice management software, PracSuite, physiotherapy, physio, chiropractic, chiro, podiatry, psychology, osteopathy, occupational therapy, speech pathology" />
+  <meta name="application-name" content="PracSuite" />
+  <meta name="author" content="Smartsoft" />
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+  <link href="./assets/css/app.css?v=2" type="text/css" rel="stylesheet" />
+  <link href="./assets/css/app-mobile.css?v=2" type="text/css" rel="stylesheet" />
+
+  <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+</head>
+
+<body id="homePage">
+  <div id="holidayMessageContainer" hidden>
+  </div>
+
+  <header>
+    <div id="top-nav-menu" class="row">
+      <div>
+        <div id="hamburger_menu" class="hamburger_menu">
+          <div id="hamburger_menu_line1"></div>
+          <div id="hamburger_menu_line2"></div>
+          <div id="hamburger_menu_line3"></div>
+        </div>
+
+        <div class="logo left">
+          <a href="./Home.html">
+            <img id="PracSuiteLogo" src="./assets/images/pracsuite-side.svg"
+              alt="PracSuite Professional Practice Management Software" />
+          </a>
+        </div>
+
+        <nav>
+          <ul id="navigation" class="vertical medium-horizontal menu right"
+            style="padding-inline-start: 0; padding-top: 5px; margin-right: 40px;">
+            <li><a href="./Home.html" class="navLink_Theme"><span class="active">HOME</span></a></li>
+
+            <li><a href="./Features.html" class="navLink_Theme"><span class="underline">FEATURES</span></a></li>
+
+            <li><a href="./Support.html" class="navLink_Theme"><span class="underline">SUPPORT</span></a></li>
+
+            <li><a href="./ContactUs.html" class="navLink_Theme"><span class="underline">CONTACT US</span></a></li>
+
+            <li> <a id="btnBookADemoLink" anim="ripple" class="btnTransparentBackGround_Blue navLink_BookADemo"
+                href="https://pracsuite.as.me/schedule.php?appointmentType=11934835" target="_blank">
+                BOOK A DEMO
+              </a>
+            </li>
+
+            <li><a href="https://app.pracsuite.com/" anim="ripple" class="btn navLink_SignIn">LOG IN</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="cloudOptionSection">
+    <div class="cloudOptionSectionLeft hideme" style="padding-right: 20px;">
+      <div class="cloudOptionText">
+        The Professional Cloud Option
+      </div>
+
+      <div class="poweredText">
+        <a href="https://www.smartsoft.com.au" target="_blank">
+          <img id="poweredByLogo" src="./assets/images/poweredby-white.svg" alt="Powered by Smartsoft" />
+        </a>
+      </div>
+
+      <div class="nextGenText">
+        The next generation of practice management software developed for the health professional to make you more
+        productive and improve your workday.
+      </div>
+
+      <a id="btnContactMeLink" anim="ripple" class="btnWhiteBackGround" href="#bookDemoSection">
+        LEARN MORE
+      </a>
+
+      <a id="btnBookADemoLink" anim="ripple" class="btnTransparentBackGround"
+        href="https://pracsuite.as.me/schedule.php?appointmentType=11934835" target="_blank">
+        BOOK A DEMO
+      </a>
+    </div>
+
+    <div class="cloudOptionSectionRight hideme">
+      <img id="tabletTopImg" src="./assets/images/laptop-large.png" alt="Practice Management Reporting" />
+    </div>
+  </div>
+
+  <div class="featuresSection hideme">
+    <div class="featuresSectionLeft">
+      <img class="featuresImg" src="./assets/images/PS-aptbook.png" alt="Features" />
+    </div>
+
+    <div class="featuresSectionRight">
+      <div class="featuresSectionHeaderText">
+        A whole suite of features
+      </div>
+
+      <div class="featuresText" style="margin-bottom: 20px !important;">
+        No matter your role at the practice, or how complex your business needs are, PracSuite's easy-to-use features
+        and workflows make it quick and easy to get the job done.
+      </div>
+
+      <span id="btnFeaturesLink" anim="ripple" class="btn" onclick="featuresLinkClickEvent(event)">
+        EXPLORE
+      </span>
+    </div>
+  </div>
+
+  <div class="anyDeviceSection">
+    <div class="anyDeviceSectionLeft hideme">
+      <div class="anyDeviceHeaderText">
+        Access from anywhere using any device
+      </div>
+
+      <div class="anyDeviceText">
+        Whether you're at the practice, working offsite or at home, PracSuite can be accessed securely using any web
+        browser on a PC, Mac, iPad and other mobile devices.
+      </div>
+    </div>
+
+    <div class="anyDeviceSectionRight">
+      <img id="venusFullImg" src="./assets/images/Accessfromanywhereimage.jpg"
+        alt="Access your Practice Management Software from anywhere" />
+    </div>
+  </div>
+
+  <div class="professionSection">
+    <div class="professionSectionLeft">
+      <img id="josieImg" src="./assets/images/josie_contour.jpg" alt="Professional support" />
+    </div>
+
+    <div class="professionSectionRight hideme">
+      <div class="professionHeaderText">
+        True professional support from the experts
+      </div>
+
+      <div class="professionText" style="margin-bottom: 20px !important;">
+        With over 20 years of experience in supporting professional products, you're in good hands with Smartsoft.
+        Help is always available online or on our free call 1800 number where you can speak directly with our
+        team.
+      </div>
+
+      <span id="btnHelpMeLink" anim="ripple" class="btn" onclick="helpMeLinkClickEvent(event)">
+        HELP ME
+      </span>
+    </div>
+  </div>
+
+  <div class="poweredSection">
+    <div class="poweredSectionTextContainer hideme">
+      <div class="poweredSectionTopText">
+        Powered by Smartsoft
+      </div>
+
+      <div class="poweredSectionMiddleText">
+        "At Smartsoft we know that your practice management software is critical in the running of your business,
+        and we are dedicated to your success through our expertise, technology and professionalism."
+      </div>
+
+      <div class="theSmartsoftTeamText">
+        The Smartsoft Team
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="bookDemoSection" class="bookDemoSection hideme">
+    <div class="bookDemoSectionLeft">
+      <div class="bookDemoHeaderText">
+        Learn more
+      </div>
+
+      <div class="bookDemoText">
+        Discover how PracSuite can make you more productive and improve your workday.
+      </div>
+
+      <div class="bookDemoSectionLeftContactMe">
+        <div class="contactMeArea fields">
+          <input type="text" spellcheck="false" name="learnMoreName" placeholder="Name" class="contactMeName"
+            onkeyup="validateContactMeFields()" required />
+          <input type="text" spellcheck="false" name="learnMoreBusiness" placeholder="Business"
+            class="contactMeBusiness" onkeyup="validateContactMeFields()" required />
+          <input type="text" spellcheck="false" name="learnMorePhone" placeholder="Phone" class="contactMePhone"
+            onkeyup="validateContactMeFields()" required />
+          <input type="email" spellcheck="false" name="learnMoreEmail" placeholder="Email Address"
+            class="contactMeEmail" onkeyup="validateEmailAddressField(event, this)" />
+        </div>
+
+        <div class="contactMeArea PersonalInformationHolder">
+          <div class="PersonalInformation">
+            <a href="./privacy" target="_blank">Personal Information Collection
+              Statement</a>
+          </div>
+          <span id="btnContactMeInvalid" class="btn ContactMeButtonInvalid invalidButton"
+            onclick="submitToAPIContactMe(event, this, 'Home')">
+            SUBMIT
+          </span>
+
+          <span id="btnContactMe" anim="ripple" class="btn ContactMeButton hiddenButton"
+            onclick="submitToAPIContactMe(event, this, 'Home')">
+            SUBMIT
+          </span>
+        </div>
+
+        <div class="contactMeSubmittedText" hidden>Thank you for your interest in PracSuite, we will be in touch
+          shortly</div>
+      </div>
+
+      <div class="bookDemoPhoneText">
+        Free Call <a class="bookDemoPhoneLink" href="tel:1800 18 18 20">1800 18 18 20</a>
+      </div>
+
+      <div class="bookDemoInternaltionalPhoneText">
+        International <a href="tel:+61 8 8361 2666">+61 8 8361 2666</a>
+      </div>
+    </div>
+
+    <div class="bookDemoSectionRight">
+      <img id="footerTabletImg" src="./assets/images/footer-tablet.png" alt="Practice Management Dashboard" />
+    </div>
+  </div>
+
+  <div class="cookiesSection">
+    <div style="padding-top: 20px;">
+      <div id="footerLogoContainer">
+        <div class="cookiesSectionTop">
+          <a href="./Home.html">
+            <img id="PracSuiteLogoCookies" src="./assets/images/PracSuiteLogo_white.svg"
+              alt="PracSuite Professional Practice Management Software" />
+          </a>
+        </div>
+
+        <div class="cookiesSectionMiddle">
+          <a id="poweredbygreyimagelink" href="https://www.smartsoft.com.au" target="_blank">
+            <img id="poweredbygreylogo" src="./assets/images/poweredby-white.svg" alt="Powered by Smartsoft" />
+          </a>
+        </div>
+
+        <div class="cookiesSectionSocialMedia">
+          <a id="facebookLink" class="socialMediaLink" href="https://www.facebook.com/pracsuite" target="_blank">
+            <svg class="socialMediaSvg" viewBox="0 0 24 24">
+              <g>
+                <path class='socialMediaSvgPath'
+                  d='m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z' />
+              </g>
+            </svg>
+          </a>
+          <a id="instagramLink" class="socialMediaLink" href="https://www.instagram.com/pracsuite/" target="_blank">
+            <svg class="socialMediaSvg" viewBox="0 0 169.063 169.063">
+              <g>
+                <path class="socialMediaSvgPath" d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
+                      c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
+                      c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
+                      c17.455,0,31.656,14.201,31.656,31.655V122.407z" />
+                <path class="socialMediaSvgPath"
+                  d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
+                      C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
+                      c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z" />
+                <path class="socialMediaSvgPath" d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
+                      c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
+                      C135.661,29.421,132.821,28.251,129.921,28.251z" />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div id="footerColContainer">
+        <div class="col">
+          <div class="footerHeader">
+            <a href="./Features.html">
+              FEATURES
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Features.html#appointmentBookSection">
+              Appointment Book
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Features.html#clinicalNotesSection">
+              Clinical Notes
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Features.html#invoicingSection">
+              Invoicing
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Features.html#communicationSection">
+              Communication
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Features.html#reportingSection">
+              Reporting
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Features.html#securitySection">
+              Security
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Features.html#onlineBookingSection">
+              Online Booking
+            </a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="footerHeader">
+            <a href="./Support.html">
+              SUPPORT
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Support.html#knowledgeBaseSection">
+              Knowledge Base
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Support.html#openSupportCaseSection">
+              Open a Support Case
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./Support.html#contactHelpdeskSection">
+              Contact Helpdesk
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="https://helpdesk.smartsoft.com.au/">
+              Connect to Smartsoft
+            </a>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="footerHeader">
+            <a href="./ContactUs.html">
+              CONTACT US
+            </a>
+          </div>
+          <div class="footerLink">
+            Free Call 1800 18 18 20
+          </div>
+          <div class="footerLink">
+            <a href="./ContactUs.html#emailSection">
+              Email
+            </a>
+          </div>
+          <div class="footerLink">
+            <a href="./ContactUs.html#emailSection">
+              Smartsoft
+            </a>
+          </div>
+          <div class="footerLink">
+            107 Flinders Street
+          </div>
+          <div class="footerLink">
+            Adelaide SA 5000
+          </div>
+          <div class="footerLink">
+            Australia
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr style="width: 95%; border: 1px solid var(--light-blue);">
+  </div>
+
+  <div id="OldBrowserMessage" hidden>
+    <img src="./assets/images/PracSuiteCloudrain.svg" alt="Browser not supported" width="250px" />
+    <p class="header">Browser not supported</p>
+    <p>We want you to have a great experience when using our website.</p>
+    <p>Your browser does not fully support this website. Please use Edge, Chome, Safari, or Firefox.</p>
+  </div>
+
+  <script type="text/javascript" src="./assets/js/app.js?v=3"></script>
+</body>
+
+</html>

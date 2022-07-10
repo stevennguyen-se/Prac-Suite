@@ -1,0 +1,772 @@
+@media (min-width: 1900px) {
+    #tabletTopImg {
+        max-width: 54vw;
+        max-height: 485px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .callUsSection {
+        flex-direction: column;
+    }
+    #liveChatSample {
+        height: unset;
+    }
+    .callUsSectionLeft, .callUsSectionLeft_ContactUs {
+        margin: 0;
+        padding-bottom: 0;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .callUsSectionRight, .callUsSectionRight_ContactUs {
+        margin-top: 40px;
+        padding-top: 0;
+        width: 100%;
+        border-left: unset;
+        border-right: unset;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .callUsSectionLast {
+        padding-top: 0;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 40px;
+    }
+    #supportPage .contactMeDescription, #supportPage .callUsHeaderText, #supportPage .callUsText, #supportPage .openingSectionLeft, #supportPage .openingSectionHours, #supportPage #priorityDropdown, #supportPage .contactMeSubject, #supportPage #liveChatSample, #supportPage .PersonalInformationDiv, #supportPage #responseMethodDropdown, #supportPage .contactMeSubmittedText {
+        width: 590px;
+    }
+    #supportPage .contactMeEmail, #supportPage .contactMeName, #supportPage .contactMePhone, #supportPage .contactMeBusiness {
+        width: 590px;
+    }
+    #contactUsPage .contactMeDescription, #contactUsPage .callUsHeaderText, #contactUsPage .callUsText, #contactUsPage .openingSectionLeft, #contactUsPage .openingSectionHours, #contactUsPage #priorityDropdown, #contactUsPage .contactMeSubject, #contactUsPage #liveChatSample, #contactUsPage .PersonalInformationDiv, #contactUsPage .contactMeSubmittedText {
+        width: 590px;
+    }
+    #contactUsPage .contactMeEmail, #contactUsPage .contactMeName, #contactUsPage .contactMePhone, #contactUsPage .contactMeBusiness, #contactUsPage .enquiryTypeDropdown, #contactUsPage .howDidDropdown {
+        width: 290px;
+    }
+    .mainSectionFeatures {
+        padding: 40px;
+        height: unset;
+    }
+    .mainSectionFeatures_Body2 {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mainSectionFeatures_Body2 .iconFeature {
+        margin-top: 15px;
+        flex-basis: 32%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    #medipassLogoLink {
+        width: 12%;
+        min-width: 100px;
+    }
+    .cloudOptionText {
+        font-size: 2.8em;
+    }
+    .featuresSectionHeaderText {
+        font-size: 2.8em;
+    }
+    .anyDeviceHeaderText {
+        font-size: 2.8em;
+    }
+    .introducingTextFeatures {
+        font-size: 2.8em;
+    }
+    .professionHeaderText {
+        font-size: 2.8em;
+    }
+    .poweredSectionMiddleText {
+        font-size: 2em;
+    }
+    .notInCloudSectionMiddleText {
+        font-size: 2em;
+        padding-right: 20%;
+    }
+    .bookDemoHeaderText {
+        font-size: 2.8em;
+    }
+    .allStaffSectionHeaderText {
+        font-size: 2.8em;
+    }
+    .poweredSectionTopText {
+        font-size: 2.8em;
+    }
+    .learnMoreArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .PersonalInformationMain {
+        margin-bottom: 20px;
+    }
+    .ipad {
+        display: block;
+    }
+    .notIpad {
+        display: none;
+    }
+    .callUsPhoneText {
+        font-size: 1.2em;
+    }
+    .introducingTextContactUs {
+        font-size: 2.8em;
+    }
+}
+
+@media (max-width: 1150px) {
+    #top-nav-menu nav {
+        position: relative;
+        height: auto;
+        top: 50px;
+        padding-bottom: 80px;
+    }
+    #navigation {
+        background: white;
+        max-height: 0px;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        transition: max-height .5s ease;
+        -moz-transition: max-height .5s ease;
+        -webkit-transition: max-height .5s ease;
+        -o-transition: max-height .5s ease;
+        -ms-transition: max-height .5s ease;
+    }
+    #navigation li>a.navLink_SignIn, #navigation li>a.navLink_BookADemo {
+        padding: 10px;
+        margin: 0;
+        text-align: left;
+    }
+    #navigation li {
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    #navigation li>a {
+        display: block;
+        width: 100%;
+        border-radius: 0 !important;
+    }
+    #hamburger_menu {
+        position: absolute;
+        right: 15px;
+        background-color: transparent;
+        border: none;
+        display: block;
+        height: 40px;
+        width: 40px;
+    }
+    #hamburger_menu>* {
+        background-color: var(--light-blue);
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+    }
+    #hamburger_menu_line1 {
+        top: 10px;
+    }
+    #hamburger_menu_line2 {
+        top: 18px;
+    }
+    #hamburger_menu_line3 {
+        top: 26px;
+    }
+    .openedHamburger #navigation {
+        max-height: 1000px;
+    }
+    .openedHamburger #hamburger_menu>* {
+        width: calc(100% - 10px);
+    }
+    .openedHamburger #hamburger_menu #hamburger_menu_line1 {
+        transform: translateY(8px) rotate(45deg);
+        -webkit-transform: translateY(8px) rotate(45deg);
+        -moz-transform: translateY(8px) rotate(45deg);
+        -o-transform: translateY(8px) rotate(45deg);
+    }
+    .openedHamburger #hamburger_menu #hamburger_menu_line2 {
+        width: 0px;
+        opacity: 0;
+    }
+    .openedHamburger #hamburger_menu #hamburger_menu_line3 {
+        transform: translateY(-8px) rotate(-45deg);
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        -moz-transform: translateY(-8px) rotate(-45deg);
+        -o-transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@media (max-width: 900px) {
+    .bookDemoSection {
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
+        height: unset;
+    }
+    .bookDemoSectionLeft {
+        width: 100%;
+    }
+    #footerTabletImg {
+        margin-top: 25px;
+        max-width: 65vw;
+    }
+    .bookDemoHeaderText {
+        font-size: 2.2em;
+    }
+    .bookDemoText {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .callUsPhoneText {
+        font-size: 1.2em;
+    }
+    .firstPage {
+        background-size: auto 100%;
+    }
+    .medipassSection {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    #medipassLogoLink {
+        width: 12%;
+        min-width: 75px;
+    }
+    .topSection {
+        height: 100%;
+        flex-direction: column;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .topSectionLeft {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .topSectionMiddle {
+        margin-left: 0px;
+    }
+    .mobileLogin {
+        padding: 5px 30px;
+    }
+    .divMobileLogin {
+        display: block;
+        height: 31px;
+        margin-left: auto;
+    }
+    .desktopLogin {
+        display: none;
+    }
+    .logo {
+        margin-left: 15px;
+    }
+    #holidayMessageContainer {
+        padding: 10px 15px;
+    }
+    #PracSuiteLogo {
+        width: 200px;
+        margin-top: 10px;
+        /* width: 160px;
+        margin-top: -10px;    */
+    }
+    .cloudOptionSection {
+        flex-direction: column;
+        padding: 40px;
+        height: unset;
+    }
+    .cloudOptionText {
+        font-size: 2.2em;
+    }
+    #tabletTopImg {
+        max-width: 60vw;
+        margin-bottom: 20px;
+    }
+    .featuresImg {
+        max-width: 65vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .featuresSectionLeft .featuresImg {
+        margin-top: 25px;
+    }
+    .learnMoreArea {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .learnMoreAreaMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .learnMoreEmail {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .PersonalInformationMain {
+        margin-bottom: 20px;
+    }
+    .featuresSectionTop {
+        width: 90%;
+    }
+    .featuresSectionNavigation {
+        margin-bottom: 40px;
+    }
+    .featuresSectionHeaderText {
+        font-size: 2.2em;
+    }
+    .featuresSectionText {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .allStaffSectionHeaderText {
+        font-size: 2.2em;
+    }
+    .featuresLink {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        pointer-events: none;
+    }
+    .introducingTextContactUs {
+        font-size: 2.2em;
+    }
+    .featuresLink[data-active="true"] {
+        background-color: white;
+        color: #009ed5;
+    }
+    .featuresLink[data-active="true"] .featuresLinkPathPrimary {
+        fill: #009ed5;
+    }
+    .featuresLink[data-active="true"] .featuresLinkPathSecondary {
+        fill: #009ed5;
+        opacity: 0.4;
+    }
+    .featuresSectionImage {
+        max-width: 90vw;
+    }
+    .anyDeviceSection {
+        flex-direction: column;
+        padding: 40px;
+    }
+    #venusFullImg {
+        max-width: 65vw;
+    }
+    .cloudOptionSectionLeft {
+        order: 2;
+    }
+    .anyDeviceSectionLeft {
+        padding-left: 0px;
+        padding-top: 0px;
+        order: 2;
+    }
+    .anyDeviceHeaderText {
+        font-size: 2.2em;
+        line-height: 0.9em;
+        color: white;
+    }
+    .introducingTextFeatures {
+        font-size: 2.2em;
+    }
+    .anyDeviceText {
+        margin-top: 35px;
+        width: 100%;
+    }
+    .anyDeviceSectionRight {
+        margin-left: 0px;
+    }
+    .mobile {
+        display: block;
+    }
+    .featuresSectionBottom.mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .desktop {
+        display: none;
+    }
+    .featuresSection {
+        flex-direction: column;
+        padding: 40px;
+        height: unset;
+    }
+    .featuresSectionLeft {
+        order: 2;
+    }
+    .appointmentBookDetailsSection,
+    .clinicalNotesDetailsSection,
+    .billingDetailsSection,
+    .communicationDetailsSection
+     {
+        flex-direction: column;
+        padding: 40px;
+        padding-top: 0;
+        height: unset;
+    }
+    .appointmentBookDetailsSectionLeft, .appointmentBookDetailsSectionRight,
+    .clinicalNotesDetailsSectionLeft, .clinicalNotesDetailsSectionRight,
+    .billingDetailsSectionLeft, .billingDetailsSectionRight,
+    .communicationDetailsSectionLeft, .communicationDetailsSectionRight    
+    {
+        width: 100%;
+    }
+    .integratedApplicationsSectionOuter {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .integratedApplicationsSection {
+        flex-direction: column;
+        align-items: center;
+        /* padding: 40px; */
+        padding-top: 0;
+    }
+    .integratedApplicationsSectionLeft .iconIntegration img {
+        /* height: 310px; */
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .professionSection {
+        flex-direction: column;
+        padding: 40px;
+        padding-bottom: 0;
+    }
+    .professionSectionLeft {
+        width: 35vw;
+        max-width: 30vw;
+        order: 2;
+    }
+    .professionSectionRight {
+        margin-left: 0;
+        width: 100%;
+    }
+    #josieImg {
+        max-width: 35vw;
+    }
+    .professionHeaderText {
+        font-size: 2.2em;
+    }
+    .poweredSectionTopText {
+        font-size: 2.2em;
+    }
+    .professionText {
+        margin-top: 20px;
+        font-size: 1.1em;
+    }
+    .intelligentSection {
+        flex-direction: column;
+        padding: 40px;
+        padding-bottom: 0;
+        /* height: 450px; */
+    }
+    .intelligentSectionLeft {
+        width: 28vw;
+        order: 2;
+    }
+    .intelligentSectionRight {
+        margin-left: 0;
+        width: 100%;
+    }
+    #intelligentImg {
+        margin-left: 0;
+        max-width: 28vw;
+    }
+    .poweredSection {
+        flex-direction: column;
+        padding: 40px;
+    }
+    .poweredSectionTopText {
+        font-size: 2.2em;
+    }
+    .IntegrationSection_Body1 {
+        font-size: 2.2em;
+    }
+    .poweredSectionMiddleText {
+        font-size: 1.5em;
+        margin-top: 40px;
+    }
+    .notInCloudSectionMiddleText {
+        font-size: 1.5em;
+        padding-right: 10%;
+    }
+    /* .imgFeature {
+        height: 40px;
+    } */
+    .iconFeatureText {
+        font-size: 14px;
+    }
+    .allStaffSection {
+        padding: 40px;
+    }
+    .searchBoxContainer {
+        width: 80vw;
+    }
+    .paper {
+        width: 80vw;
+    }
+    .articlesSection {
+        flex-direction: column;
+    }
+    .articlesSectionLeft {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .callUsSectionLeft, .callUsSectionLeft_ContactUs {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .callUsSectionRight, .callUsSectionRight_ContactUs {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .callUsSectionLast {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .mainSectionFeatures_Body1, .noMatterText {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 720px) {
+    .topSection {
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .topSectionMiddle {
+        margin-left: 15px;
+    }
+    .topSectionLeft {
+        display: block;
+        width: auto;
+        margin-top: 0px;
+    }
+    .topSectionRight {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        margin-left: auto;
+    }
+    .divMobileLogin {
+        display: none;
+    }
+    .desktopLogin {
+        display: block;
+    }
+    #PracSuiteLogo {
+        display: block;
+    }
+}
+
+@media (max-width: 720px) {
+    #footerTabletImg {
+        margin-top: 25px;
+        max-width: 75vw;
+    }
+    .mainSectionFeatures_Body2 {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mainSectionFeatures_Body2 .iconFeature {
+        margin-top: 15px;
+        flex-basis: 40%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    #tabletTopImg {
+        max-width: 75vw;
+    }
+    .featuresImg {
+        max-width: 85vw;
+    }
+    .professionSectionLeft {
+        max-width: 42vw;
+    }
+    #josieImg {
+        max-width: 42vw;
+    }
+    #intelligentImg {
+        max-width: 34vw;
+    }
+    .intelligentSectionLeft {
+        max-width: 34vw;
+    }
+    .iconFeatureText {
+        font-size: 12px;
+    }
+    .IntegrationSection_Body2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .IntegrationSection_Body2 .iconIntegration {
+        margin-top: 10px;
+        flex-basis: 33%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    .contactMeArea.fields {
+        display: block;
+    }
+    .bookDemoPhoneText {
+        font-size: 1.4em !important;
+    }
+    .bookDemoInternaltionalPhoneText {
+        font-size: 1.1em;
+    }
+    #footerLogoContainer {
+        display: block;
+        width: 100% !important;
+    }
+    #footerColContainer {
+        width: 90% !important;
+        float: unset;
+        margin: 0 auto;
+    }
+    .col {
+        width: 33vw;
+    }
+    .callUsPhoneText {
+        font-size: 1.2em !important;
+    }
+    .atSmartSoftText {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    /* .alliedHealthText {
+        margin-left: 10%;
+        margin-right: 10%;
+    } */
+    #designedForTable {
+        width: 430px;
+    }
+    #designedForTable td {
+        font-size: 0.9em;
+    }
+    .designedForDot {
+        width: 10px;
+    }
+}
+
+@media (max-width: 695px) {
+    #footerColContainer {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .footerLink {
+        margin-left: 30px;
+    }
+    .professionSectionLeft {
+        max-width: 50vw;
+    }
+    #josieImg {
+        max-width: 50vw;
+    }
+    .col {
+        width: 60vw;
+    }
+    #homePage .contactMeName, #homePage .contactMePhone, #featuresPage .contactMeName, #featuresPage .contactMePhone {
+        margin-right: 0;
+    }
+    #supportPage .contactMeEmail, #supportPage .contactMeName, #supportPage .contactMePhone, #supportPage .contactMeBusiness {
+        width: 80vw;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+    #supportPage .contactMeDescription, #supportPage .callUsHeaderText, #supportPage .callUsText, #supportPage .openingSectionLeft, #supportPage .openingSectionHours, #supportPage #priorityDropdown, #supportPage .contactMeSubject, #supportPage #liveChatSample, #supportPage.PersonalInformationDiv, #supportPage #responseMethodDropdown, #supportPage .contactMeSubmittedText {
+        width: 80vw;
+    }
+    #contactUsPage .contactMeEmail, #contactUsPage .contactMeName, #contactUsPage .contactMePhone, #contactUsPage .contactMeBusiness {
+        width: 80vw;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+    #contactUsPage .contactMeDescription, #contactUsPage .callUsHeaderText, #contactUsPage .callUsText, #contactUsPage .openingSectionLeft, #contactUsPage .openingSectionHours, #contactUsPage #priorityDropdown, #contactUsPage .contactMeSubject, #contactUsPage #liveChatSample, #contactUsPage.PersonalInformationDiv, #contactUsPage .contactMeSubmittedText, #contactUsPage .enquiryTypeDropdown, #contactUsPage .howDidDropdown {
+        width: 80vw;
+    }
+}
+
+/* @media (max-width: 600px) {
+    .integratedApplicationsSectionRight .iconIntegration.mg-left {
+        margin-left: 0px;
+    }
+} */
+
+@media (max-width: 480px) {
+    .bookDemoPhoneText {
+        font-size: 1.2em !important;
+    }
+    .bookDemoInternaltionalPhoneText {
+        font-size: 1.1em;
+    }
+    .callUsSectionLeft, .callUsSectionLeft_ContactUs {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .callUsSectionRight, .callUsSectionRight_ContactUs {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .callUsSectionLast {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .PersonalInformation, .contactMeButtonContainer {
+        float: unset;
+    }
+    #homePage .PersonalInformation, #featuresPage .PersonalInformation {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    #designedForTable {
+        width: 350px;
+    }
+    #designedForTable td {
+        font-size: 0.8em;
+    }
+    .designedForDot {
+        width: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .bookDemoPhoneText {
+        font-size: 1.1em !important;
+    }
+    .bookDemoInternaltionalPhoneText {
+        font-size: 1.0em;
+    }
+    #supportPage .openingSectionHours, #contactUsPage .openingSectionHours {
+        padding: 10px;
+    }
+    #designedForTable {
+        width: 300px;
+    }
+    #designedForTable td {
+        font-size: 0.6em;
+    }
+    .designedForDot {
+        width: 6px;
+    }
+}
